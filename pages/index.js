@@ -9,7 +9,7 @@ import auth from '../hooks/auth';
 import { useRouter } from 'next/router';
 import Remove from '../components/remove/Remove';
 import { useEffect } from 'react';
-import Registerpage from './registerpage';
+import Registerpage from './Registerpage.js'
 
 
 export default function Home() {
