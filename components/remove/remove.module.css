@@ -1,0 +1,12 @@
+.remove{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+
+}.remove>a{
+    padding: 6px;
+    font-size: 19px;
+    background-color: rgba(27, 215, 253, 0.808);
+    border-radius: 10px;
+    cursor: pointer;
+}

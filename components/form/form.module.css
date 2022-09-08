@@ -1,0 +1,33 @@
+.form{
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    min-width: 700px;
+    max-height: 600px;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 20px;
+
+}.form>h3{
+    color: black;
+    font-size: 23px;
+
+}.form>button{
+    padding: 16px 8px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}.form>input{
+    border: none;
+    background: none;
+    border-bottom: 0.5px solid black;
+    padding: 5px;
+    outline: none;
+    font-size: 20px;
+}.form>textarea{
+    font-size: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,9 @@
+.add{
+    padding: 9px;
+    border-radius: 6px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    background-color: rgb(19, 19, 20);
+    
+}

@@ -1,0 +1,15 @@
+.nav{
+    max-height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+
+}.nav>h3{
+    font-size: 28px;
+    font-weight:bold;
+    color: rgb(177, 197, 217);
+}

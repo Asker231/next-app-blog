@@ -1,0 +1,24 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #fff;
+    max-width: 300px;
+}.forms>input{
+    padding: 5px;
+    font-size: 20px;
+    min-width: 250px;
+
+    outline: none;
+    border: none;
+    border-bottom: 0.8px solid black;
+}.forms>button{
+    padding: 3px 6px;
+    font-size: 20px;
+    border: none;
+    min-width: 200px;
+    background-color: rgba(51, 196, 186, 0.665);
+
+}

@@ -1,0 +1,30 @@
+.item{
+ display: flex;
+ flex-direction: column;
+ width: 600px;
+ min-width:500px;
+ flex-wrap: wrap;
+ gap: 15px;
+ border-radius: 7px;
+ cursor: pointer;
+ align-items: center;
+  justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .8s;
+}.item>img{
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 500px;
+}
+.item:hover{
+    border: 3px solid blueviolet;
+}
+.wrap{
+    display: flex;
+    padding: 140px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
