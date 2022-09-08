@@ -8,10 +8,13 @@ import CardItem from '../components/item/CardItem';
 import auth from '../hooks/auth';
 import { useRouter } from 'next/router';
 import Remove from '../components/remove/Remove';
+import { useEffect } from 'react';
+import Registerpage from './registerpage';
 
 
 export default function Home() {
     const nav = useRouter();
+    
     const {isAuth} = auth();
   return isAuth?(
     <div className={styles.container}>
@@ -26,7 +29,8 @@ export default function Home() {
        <Remove/>
      
     </div>
-  ):nav.push('/authpage')
+  ):<Registerpage/>
+  
   
      
 }

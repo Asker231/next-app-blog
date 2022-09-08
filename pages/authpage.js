@@ -6,7 +6,8 @@ import { addUser } from "../components/store/userSlice";
 import {useRouter} from "next/router";
 import Link from "next/link";
 import style from '../styles/authpage.module.css';
-export default function authpage() {
+export default function Authpage() {
+
     const nav = useRouter()
     const disp = useDispatch()
     const handleAuth =(email,password)=>{

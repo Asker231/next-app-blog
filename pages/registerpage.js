@@ -5,7 +5,7 @@ import FormAuth from "../components/formAuth/FormAuth";
 import Link from "next/link";
 import style from '../styles/reg.module.css';
 import { useRouter } from "next/router";
-export default function registerpage() {
+export default function Registerpage() {
     const router = useRouter() 
     const disp = useDispatch()
     const handleReg = (email,password)=>{
