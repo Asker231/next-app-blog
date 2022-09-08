@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Form from "../components/form/form";
+import Form from "../components/Form/Form";
 import Style from '../styles/post.module.css';
 
 
